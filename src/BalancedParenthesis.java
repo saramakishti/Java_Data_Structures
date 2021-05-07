@@ -1,5 +1,4 @@
 import java.util.*;
-import java.io.*;
 
 public class BalancedParenthesis {
     static boolean Opening(char c) {
@@ -20,9 +19,10 @@ public class BalancedParenthesis {
         return 'a';
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
-        Scanner keyboard = new Scanner(new FileReader("input.txt"));
+        //Sample Input: (a + b * {c - e } ) + ( d / e
+        Scanner keyboard = new Scanner(System.in);
         StringTokenizer stok = new StringTokenizer(keyboard.nextLine());
 
         Stack<Character> st = new Stack<>();
