@@ -1,10 +1,3 @@
-/**
- * Ervisa Lamce
- * BINF II
- * Data Structures - Lab 08
- */
-
-
 import java.util.Arrays;
 import java.util.Scanner;
 
